@@ -1,0 +1,8 @@
+sds:
+  name: Test_In
+  description: ''
+  sample-frequency: 100
+  content:
+    - value: data
+      type: float
+      unit: ''

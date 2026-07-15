@@ -1,0 +1,7 @@
+sds:
+  name: adc_raw
+  description: Raw ADC channel
+  sample-frequency: 1000
+  content:
+  - value: adc
+    type: uint16_t

@@ -1,0 +1,7 @@
+sds:
+  name: gpio
+  description: Digital GPIO state
+  sample-frequency: 10
+  content:
+  - value: state
+    type: uint8_t

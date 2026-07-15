@@ -1,0 +1,9 @@
+sds:
+  name: precision
+  description: High-precision measurement with custom tick-frequency
+  sample-frequency: 10
+  tick-frequency: 1000000
+  content:
+  - value: measurement
+    type: double
+    unit: V

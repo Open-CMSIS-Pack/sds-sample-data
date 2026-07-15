@@ -1,0 +1,17 @@
+sds:
+  name: accelerometer
+  description: 3-axis MEMS accelerometer
+  sample-frequency: 100
+  content:
+  - value: x
+    type: int16_t
+    scale: 0.001
+    unit: G
+  - value: y
+    type: int16_t
+    scale: 0.001
+    unit: G
+  - value: z
+    type: int16_t
+    scale: 0.001
+    unit: G

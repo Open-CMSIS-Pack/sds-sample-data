@@ -1,0 +1,10 @@
+sds:
+  name: camera_nv12
+  description: NV12 YUV test pattern
+  sample-frequency: 1
+  content:
+  - image:
+      pixel_format: NV12
+      width: 128
+      height: 96
+      stride_bytes: 384

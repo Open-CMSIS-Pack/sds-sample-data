@@ -1,0 +1,8 @@
+sds:
+  name: temperature
+  description: Ambient temperature sensor
+  sample-frequency: 1
+  content:
+  - value: temp
+    type: float
+    unit: degC

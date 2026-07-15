@@ -1,0 +1,10 @@
+sds:
+  name: mic_stereo
+  description: Stereo 16-bit PCM
+  sample-frequency: 10
+  content:
+  - audio:
+      sample-frequency: 44100
+      bit-depth: 16
+      channels: 2
+      format: pcm

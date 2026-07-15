@@ -1,0 +1,11 @@
+sds:
+  name: video_raw
+  description: Raw RGB888 video stream
+  sample-frequency: 10
+  content:
+  - video:
+      pixel_format: RGB888
+      width: 160
+      height: 120
+      fps: 10
+      codec: raw
