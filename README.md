@@ -43,6 +43,5 @@ Most examples have a single payload named `<stream>.0.sds`. A few examples inten
 | `temperature.sds.yml` | A 1 Hz ambient temperature sensor. It demonstrates a simple low-rate float stream with a `temp` value in degrees Celsius. |
 | `Test_In.sds.yml` | A 100 Hz test input stream with an empty description and one float `data` value. It demonstrates a minimal input dataset spread across four numbered SDS payload files. |
 | `Test_Out.sds.yml` | A 100 Hz test output stream with empty units on signed 32-bit `x`, `y`, and `z` values. It demonstrates a three-channel integer output dataset spread across multiple payload files, including the `.p.sds` payload filename variant. |
-| `video_raw.sds.yml` | A 10 Hz raw RGB888 video stream. It declares 160 x 120 frames, 10 fps, and the `raw` codec, demonstrating video payload metadata rather than individual still-image frame metadata. |
 
 Together, these files cover common SDS use cases: scalar sensor channels, calibrated units and scale factors, sparse metadata, empty and single-record recordings, multi-file recordings, custom tick frequency, large binary blocks, audio payloads, still image payloads, and raw video payloads.
