@@ -45,3 +45,7 @@ Most examples have a single payload named `<stream>.0.sds`. A few examples inten
 | `Test_Out.sds.yml` | A 1 kHz test output stream with an empty units on unsigned 16-bit `x` and `y` values. It demonstrates a two-channel integer output dataset spread across multiple payload files, including the `.p.sds` payload filename variant. |
 
 Together, these files cover common SDS use cases: scalar sensor channels, calibrated units and scale factors, sparse metadata, empty and single-record recordings, multi-file recordings, custom tick frequency, large binary blocks, audio payloads, still image payloads, and raw video payloads.
+
+## Converted recordings
+
+The `converted/` directory contains human-readable or playable versions of the SDS recordings. Value streams are converted to CSV, audio streams to WAV, and image streams to MP4. Each output keeps the source file's stream name and label; for example, `accelerometer.0.sds` becomes `converted/accelerometer.0.csv`, and `Test_Out.0.p.sds` becomes `converted/Test_Out.0.p.csv`. The matching `*.sds.yml` file supplies the value layout or media format used for conversion.
