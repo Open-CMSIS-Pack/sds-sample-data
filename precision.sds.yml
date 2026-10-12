@@ -4,6 +4,6 @@ sds:
   sample-frequency: 10
   tick-frequency: 1000000
   content:
-  - value: measurement
-    type: double
-    unit: V
+    - value: measurement
+      type: double
+      unit: V

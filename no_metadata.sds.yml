@@ -1,8 +1,11 @@
 sds:
   name: no_metadata
   description: ''
-  sample-frequency: 100
+  sample-frequency: 10
   content:
     - value: channel1
+      type: float
+      unit: ''
+    - value: channel2
       type: float
       unit: ''

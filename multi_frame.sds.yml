@@ -3,7 +3,7 @@ sds:
   description: Sensor with multiple frames per record
   sample-frequency: 100
   content:
-  - value: ch1
-    type: int32_t
-  - value: ch2
-    type: int32_t
+    - value: ch1
+      type: int32_t
+    - value: ch2
+      type: int32_t

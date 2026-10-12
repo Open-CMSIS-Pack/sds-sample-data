@@ -3,8 +3,7 @@ sds:
   description: RGB565 test pattern
   sample-frequency: 1
   content:
-  - image:
-      pixel_format: RGB565
-      width: 128
-      height: 96
-      stride_bytes: 256
+    - image:
+        pixel_format: RGB565
+        width: 128
+        height: 96

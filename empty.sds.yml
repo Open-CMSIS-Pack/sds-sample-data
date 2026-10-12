@@ -1,9 +1,9 @@
 sds:
   name: empty
-  description: Empty recording — zero records
+  description: Empty recording - zero records
   sample-frequency: 100
   content:
-  - value: x
-    type: float
-  - value: y
-    type: float
+    - value: x
+      type: float
+    - value: y
+      type: float

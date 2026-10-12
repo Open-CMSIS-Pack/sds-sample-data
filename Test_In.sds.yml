@@ -1,8 +1,17 @@
 sds:
   name: Test_In
   description: ''
-  sample-frequency: 100
+  sample-frequency: 16600
   content:
-    - value: data
-      type: float
+    - value: x
+      type: uint16_t
+      scale: 0.001
+      unit: ''
+    - value: y
+      type: uint16_t
+      scale: 0.001
+      unit: ''
+    - value: z
+      type: uint16_t
+      scale: 0.001
       unit: ''

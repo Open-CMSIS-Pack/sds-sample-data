@@ -1,14 +1,11 @@
 sds:
   name: Test_Out
   description: ''
-  sample-frequency: 100
+  sample-frequency: 1000
   content:
     - value: x
-      type: int32_t
+      type: uint16_t
       unit: ''
     - value: y
-      type: int32_t
-      unit: ''
-    - value: z
-      type: int32_t
+      type: uint16_t
       unit: ''

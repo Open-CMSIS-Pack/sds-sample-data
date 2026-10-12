@@ -3,12 +3,12 @@ sds:
   description: 3-axis MEMS gyroscope
   sample-frequency: 200
   content:
-  - value: wx
-    type: float
-    unit: dps
-  - value: wy
-    type: float
-    unit: dps
-  - value: wz
-    type: float
-    unit: dps
+    - value: wx
+      type: float
+      unit: dps
+    - value: wy
+      type: float
+      unit: dps
+    - value: wz
+      type: float
+      unit: dps

@@ -3,8 +3,7 @@ sds:
   description: RAW8 grayscale test pattern
   sample-frequency: 2
   content:
-  - image:
-      pixel_format: RAW8
-      width: 128
-      height: 96
-      stride_bytes: 384
+    - image:
+        pixel_format: RAW8
+        width: 128
+        height: 96

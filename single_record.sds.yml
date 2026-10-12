@@ -3,5 +3,5 @@ sds:
   description: Recording with exactly one record
   sample-frequency: 100
   content:
-  - value: value
-    type: float
+    - value: value
+      type: float

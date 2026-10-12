@@ -3,8 +3,7 @@ sds:
   description: RGB888 test pattern
   sample-frequency: 1
   content:
-  - image:
-      pixel_format: RGB888
-      width: 160
-      height: 120
-      stride_bytes: 480
+    - image:
+        pixel_format: RGB888
+        width: 160
+        height: 120

@@ -3,5 +3,5 @@ sds:
   description: Raw ADC channel
   sample-frequency: 1000
   content:
-  - value: adc
-    type: uint16_t
+    - value: adc
+      type: uint16_t

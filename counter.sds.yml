@@ -3,5 +3,5 @@ sds:
   description: Hardware event counter
   sample-frequency: 50
   content:
-  - value: count
-    type: uint32_t
+    - value: count
+      type: uint32_t
