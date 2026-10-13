@@ -1,7 +1,6 @@
 sds:
   name: large_block
   description: Large payload records (1 KB each)
-  sample-frequency: 1
   content:
     - value: payload
       type: uint8_t
