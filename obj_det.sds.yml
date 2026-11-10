@@ -1,0 +1,14 @@
+sds:
+  name: Object detection
+  description: Results of object detection
+  content:
+    - value: confidence
+      type:  double
+    - value: x
+      type:  uint32_t
+    - value: y
+      type:  uint32_t
+    - value: width
+      type:  uint32_t
+    - value: height
+      type:  uint32_t
